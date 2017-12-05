@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<title>js_get</title>
+
+</head>
+
+<body>
+<p id="data_out"></p>
+<br>
+<a href="index.html">back</a>
+</body>
+
+<script language="javascript" type="text/javascript" src="js/get.js"></script>
+<script type="text/javascript">
+	
+	var a = get("a");
+	var b = get("b");	
+	var c = get("c");
+
+	document.getElementById("data_out").innerHTML = `a = ${a} <br> b = ${b} <br> c = ${c}`;
+
+</script>
+
+</html>
